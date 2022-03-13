@@ -6,6 +6,7 @@ import Nav from "../components/Nav.jsx";
 import Cards from "../components/Cards.jsx";
 import About from "../components/About.jsx";
 import City from "../components/City.jsx";
+import Footer from "../components/Footer";
 
 const apiKey = "fb3ef08cbb8111cdefd7f1a2ff808d1f";
 
@@ -107,6 +108,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav onSearch={onSearch} />
+
         <Routes>
           <Route
             path="/"
@@ -124,6 +126,7 @@ function App() {
             }
           />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
