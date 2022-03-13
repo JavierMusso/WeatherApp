@@ -1,0 +1,91 @@
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+article {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+article button {
+  color: grey;
+  background-color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+  font-size: large;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+article button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article div div p {
+  color: grey;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 500;
+}
+
+article div div span {
+  color: #059e9e;
+  font-weight: 500;
+}
+
+article div div img {
+  background-color: #75bbbb;
+  border-radius: 50%;
+}
+
+article:hover {
+  -webkit-transform: scale(104%);
+          transform: scale(104%);
+}
+/*# sourceMappingURL=Card.module.css.map */

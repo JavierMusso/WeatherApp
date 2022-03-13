@@ -1,0 +1,37 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+form .input {
+  border-radius: 4px;
+  border: none;
+  padding-inline: 10px;
+  background-color: #a0d4cf;
+}
+
+form .submit {
+  background-color: #059e9e;
+  border-radius: 4px;
+  border: 1px solid #1e4747;
+  color: #1e4747;
+  padding: 5px;
+  padding-inline: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+form .submit:hover {
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: seagreen;
+  border: 1px solid seagreen;
+  color: white;
+}
+/*# sourceMappingURL=SearchBar.module.css.map */

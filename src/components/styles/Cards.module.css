@@ -1,0 +1,17 @@
+.container {
+  color: #1e4747;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  margin-top: 100px;
+  width: 1200px;
+}
+/*# sourceMappingURL=Cards.module.css.map */

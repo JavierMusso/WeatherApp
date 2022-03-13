@@ -1,0 +1,122 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: auto;
+  padding: 30px;
+  position: relative;
+  max-width: 1200px;
+}
+
+.container .logo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .logo svg {
+  width: 25px;
+  height: 25px;
+  color: #797979;
+}
+
+.container .logo:hover {
+  background-color: #a0d4cf;
+}
+
+.container .logo:hover svg {
+  color: #fff;
+}
+
+.container button {
+  color: grey;
+  background-color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+  font-size: large;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.container h2 {
+  font-size: 40px;
+  color: #447c7c;
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+}
+
+.container .current {
+  border-block: 1px solid #bdbdbd;
+  width: 700px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.container .current p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container .current .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .current .details div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.container .current .details img {
+  width: 130px;
+  height: 130px;
+  background-color: #a0d4cf;
+  border-radius: 50%;
+}
+
+.container h3 {
+  color: #447c7c;
+  margin-block: 15px;
+}
+
+.container .forecast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=City.module.css.map */

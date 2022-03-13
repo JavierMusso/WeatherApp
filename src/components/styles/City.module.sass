@@ -1,0 +1,73 @@
+.container
+    background-color: white
+    border-radius: 10px
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+    transition: all 0.3s ease-in-out
+    margin: auto
+    padding: 30px
+    position: relative
+    max-width: 1200px
+    .logo
+        width: 30px
+        height: 30px
+        position: absolute
+        left: 10px
+        top: 10px
+        border-radius: 50%
+        transition: all 0.3s ease-in-out
+        svg
+            width: 25px
+            height: 25px
+            color: #797979
+    .logo:hover
+        background-color: rgb(160, 212, 207)
+        svg
+            color: #fff
+    button
+        color: grey
+        background-color: white
+        border: none
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        position: absolute
+        right: 10px
+        top: 10px
+        font-weight: bold
+        font-size: large
+        transition: all 0.3s ease
+    button:hover
+        background-color: tomato
+        color: white
+    h2
+        font-size: 40px
+        color: rgb(68, 124, 124)
+        margin-block-end: 15px 
+    .current
+        border-block: 1px solid #bdbdbd
+        width: 700px
+        margin: auto
+        padding-bottom: 30px
+        p
+            margin: 0
+            font-size: 20px
+        .details
+            display: flex
+            align-items: center
+            justify-content: space-evenly
+            div
+                display: flex
+                flex-direction: column
+                gap: 20px
+            img
+                width: 130px
+                height: 130px
+                background-color: rgb(160, 212, 207)
+                border-radius: 50%
+    h3
+        color: rgb(68, 124, 124)
+        margin-block: 15px 
+    .forecast
+        display: flex
+        grid-gap: 15px
+        flex-wrap: wrap
